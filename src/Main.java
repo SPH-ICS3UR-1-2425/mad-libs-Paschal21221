@@ -12,33 +12,32 @@ public class Main {
 		 * Make sure to include Strings, ints, and doubles!
 		 */
 		
-		Scanner in = new Scanner(System.in);
-		System.out.println("Welcome to Mad Libs!");
+		Scanner in = new Scanner(System.in){
+		System.out.println("Welcome to Mad Libs Whats your name?");
+		String name = in.nextLine();
 		System.out.println("What Year Comes to mind?");
-		int yeAr = in.nextInt();
+		int year = in.nextInt();
 		System.out.println("Give me a country");
 		in.nextLine();
-		String couNtry = in.nextLine();
+		String country = in.nextLine();
 		System.out.println("Give me an animal");
-		String aniMal = in.nextLine();
+		String animal = in.nextLine();
 		System.out.println("Five me a planet");
-		String plaNet = in.nextLine();
+		String planet = in.nextLine();
 		System.out.println("Give me a name");
-		String friendName = in.nextLine();
+		String friendname = in.nextLine();
 		System.out.println("Give me a random object");
-		String oBject = in.nextLine();
+		String object = in.nextLine();
 		System.out.println("Give Me a sport");
-		String sPort = in.nextLine();
+		String sport = in.nextLine();
 		System.out.println("Give me a number");
-		int numberOfDays = in.nextInt();
+		int numberofdays = in.nextInt();
 		System.out.println("Give me a dance");
-		String danCe = in.nextLine();
+		in.nextLine();
+		String dance = in.nextLine();
 		System.out.println("Give me an attack");
-		String aTtack = in.nextLine();
-		
-		
-		System.out.println("The Year is (Year) And aliens have landed in (Place), The aliens closleyb resemble (animal). They claim they come from (Planet) and are here to make friends. (NAME2) and I offer to be thier friend and they let us in thier spaceship it kind of looks like a (Random object) Once we are inside we teach them how to play (sport) and they love it. WE play for (numberofdays) days but we then realize they wont let us leave.So when one comes over we do the (dance) to distract them and when hen isnt paying attention we (ATTACK) Him and escape.  ");
-
+		String attack = in.nextLine();
+		System.out.println("The Year is "+year+"  And aliens have landed in "+country+" , The aliens closley resemble "+animal+" . They claim they come from "+planet+" and are here to make friends. "+friendname+" and I offer to be thier friend and they let us in thier spaceship it kind of looks like a "+object+" Once we are inside we teach them how to play "+sport+" and they love it. WE play for "+numberofdays+" days but we then realize they wont let us leave.So when one comes over we do the "+dance+" to distract them and when hen isnt paying attention we "+attack+" Him and escape.  ");
 	}
 
-}
+
