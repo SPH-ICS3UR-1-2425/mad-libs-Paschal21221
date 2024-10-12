@@ -37,7 +37,7 @@ public class Main {
 		String aTtack = in.nextLine();
 		
 		
-		System.out.println("The Year is (Year) And aliens have landed in (Place), The aliens closleyb resemble (animal). They claim they come from (Planet) and are here to make friends. (NAME2) and I offer to be thier friend and they let us in thier spaceship it kind of looks like a (Random object) Once we are inside we teach them how to play (sport) and they love it. WE play for (numberofdays) days but we then realize they wont let us leave.So when one comes over we do the (dance) to distract them and when hen isnt paying attention we (ATTACK) Him and escape.  ");
+		System.out.println("The Year is "+ yeAr + " And aliens have landed in" + couNtry + ", The aliens closley resemble a "+ aniMal +" They claim they come from "+ plaNet +" and are here to make friends."+ friendName +" and I offer to be thier friend and they let us in thier spaceship it kind of looks like a " + oBject + "Once we are inside we teach them how to play "+ sPort +" and they love it. WE play for "+ numberOfDays +" days but we then realize they wont let us leave. So when one comes over we do the "+ danCe +" to distract them and when hen isnt paying attention we " + aTtack + "Him and escape.  ");
 
 	}
 
